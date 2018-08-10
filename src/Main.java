@@ -4,8 +4,8 @@
 public class Main {
     public static void main(String[] args) {
         //new Main().testQueue();
-        //new Main().testDec();
-        new Main().testPriorityQueue();
+        new Main().testDec();
+//        new Main().testPriorityQueue();
         String word = "I like to solve programming problems";
         System.out.println(new Main().reverse(word));
         System.out.println(new Main().reverseVer2(word));
